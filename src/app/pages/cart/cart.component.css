@@ -1,0 +1,70 @@
+.cartCardEmpty{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    align-items: center;
+    
+}
+
+.cartCardEmpty p { 
+    margin-top: 10px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.cartCardEmpty button { 
+   margin-left: 20px;
+   font-size: 18px;
+}
+
+
+.cartCardProductImg{
+    width: 450px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.cartCardTable{
+    font-size: 16px;
+
+}
+
+th{
+    font-size: 16px;
+    text-align: center;
+}
+
+p{
+    font-size: 19px;
+    text-align: center;
+}
+
+td{
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.cardCartQuantity{
+    display: flex;
+    align-items: center;
+}
+
+.cartCardpriceTotal{
+    font-size: 28px;
+}
+
+.cardCartBottomRow{
+    height: 170px;
+   
+}
+
+.cardCartRemove{
+    
+}
+
+.cardCartBottomButton{
+    font-size: 20px;
+}
+

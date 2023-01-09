@@ -1,0 +1,19 @@
+<mat-card [ngClass]="{productBoxContainerFullImg : fullWidthMode}" >
+    <div class="productBoxImg">
+        <img  [ngClass]="{productBoxFullImg : fullWidthMode}" src="https://via.placeholder.com/150"/>
+    </div>
+    <div [ngClass]="{productBoxInfoContainerFullImg : fullWidthMode}"   >
+        <div  [ngClass]="fullWidthMode ? 'productBoxInfoFullImg' : 'productBoxInfo'">
+            <h2>shoes</h2>
+            <p>snikcers</p>
+            <p>descriptins</p>
+        </div>
+        <div  class="productBoxPriceBuy"  >
+            <span> {{'150' | currency}}</span>
+            <button mat-icon-button (click)="onAddToCart()">
+                <mat-icon mat-raised-button color="primary">shopping_cart</mat-icon>
+            </button>
+        </div>
+    </div>
+
+</mat-card>

@@ -1,0 +1,80 @@
+.mat-toolbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+    .mat-menu.myMenu {
+     margin-top: -200px;
+    }
+
+.menuContainer{
+    width: 200px;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 1%;
+    margin-left: 2%;
+    align-self: center;
+    font-size: 40px;
+    font-family: Pushster;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+  .menuTotalItems{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 1px #8080804f;
+    
+  }
+
+
+  .menuItems{
+    width: 100%;
+  }
+
+
+  .menuTotal{
+    border-top: solid 1px #8080804f;
+    padding: 10px;
+    border-bottom: solid 1px #8080804f;
+    font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .menuAction{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menuButtons{
+
+  }
+
+  .menuItemsPrice{
+    font-size: 20px;
+    display: flex;
+    margin-top: 13px;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+.menuItemsQuantity{
+  font-size: 22px;
+}
+
+
+

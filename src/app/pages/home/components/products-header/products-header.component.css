@@ -1,0 +1,12 @@
+.products-headerMenuHeaders{
+    display: flex;
+
+}
+
+.products-headerCard{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
